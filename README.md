@@ -15,14 +15,14 @@ Este projeto oferece uma implementação simples e educacional do algoritmo AES-
 
 ## 🧩 Estrutura do Projeto
 
-```bash
-aes128/
-├── main.py # Interface principal para execução
-├── aes_utils.py # Funções auxiliares para criptografia e descriptografia
-├── requirements.txt # Dependências do projeto
-├── LICENSE # Licença MIT
-└── README.md # Documentação do projeto
-```
+   ```bash
+   aes128/
+   ├── main.py # Interface principal para execução
+   ├── aes_utils.py # Funções auxiliares para criptografia e descriptografia
+   ├── requirements.txt # Dependências do projeto
+   ├── LICENSE # Licença MIT
+   └── README.md # Documentação do projeto
+   ```
 
 ---
 
@@ -43,25 +43,24 @@ aes128/
 3. **Execute o script principal:**
 
   ```bash
-python main.py
-```
-
->Siga as instruções no terminal para criptografar ou descriptografar mensagens.
+  python main.py
+  ```
+   >Siga as instruções no terminal para criptografar ou descriptografar mensagens.
 
 ## 🧠 Exemplo de Uso
 
-```bash
-from aes_utils import encrypt, decrypt
+   ```bash
+   from aes_utils import encrypt, decrypt
 
-chave = 'minha_chave_128b'  # Deve ter 16 caracteres
-mensagem = 'Olá, mundo!'
+   chave = 'minha_chave_128b'  # Deve ter 16 caracteres
+   mensagem = 'Olá, mundo!'
 
-mensagem_criptografada = encrypt(mensagem, chave)
-print(f'Mensagem criptografada: {mensagem_criptografada}')
+   mensagem_criptografada = encrypt(mensagem, chave)
+   print(f'Mensagem criptografada: {mensagem_criptografada}')
 
-mensagem_original = decrypt(mensagem_criptografada, chave)
-print(f'Mensagem original: {mensagem_original}')
-```
+   mensagem_original = decrypt(mensagem_criptografada, chave)
+   print(f'Mensagem original: {mensagem_original}')
+   ```
 
 ## 📚 Recursos Adicionais
 
