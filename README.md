@@ -15,7 +15,7 @@ Este projeto oferece uma implementação simples e educacional do algoritmo AES-
 
 ## 🧩 Estrutura do Projeto
 
-'''bash
+```bash
 aes128/
 ├── main.py # Interface principal para execução
 ├── aes_utils.py # Funções auxiliares para criptografia e descriptografia
